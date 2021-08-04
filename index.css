@@ -100,7 +100,10 @@ nav a{
 .right{
     width:60%;
     position:absolute;
-    top: 45%;
+    top: 25%;
+}
+.right h2{
+    margin:2%;
 }
 
 /* Introduction Section Styles*/
@@ -121,9 +124,8 @@ nav a{
 .camping_images{
     width:30%;
     text-align:center;
-    display:inline-block;
     padding:1%;
-
+    margin:0 auto;
 } 
 .camping_images .fire{
     padding-bottom:10%;
@@ -131,7 +133,7 @@ nav a{
 .camping_images .camping{
     padding-bottom:10%;
 }
-.camping_images .bold{
+.bold{
     font-weight: bold;
 }
 
@@ -139,12 +141,12 @@ nav a{
     width:25%;
 }
 /*Background Image Style*/
-.background_image{
-    width:99%;
-}
 
-.background_image img{
-    width: 25%;
+.empty{
+    background-image: url("assets/footer_img.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /*Footer Section Styles*/
